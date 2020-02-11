@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700|Source+Sans+Pro&display=swap');
+
+#contenedorgral{
+    max-width: 1200px;
+
+ }
+ body{
+    font-family: 'Poppins', sans-serif;
+
+ }
+/* ***** --- NAVBAR --- ***** */
+nav{
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.932) !important;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+nav .navbar-brand{
+    font-size: 25px;
+}
+nav li{
+    margin-right: 10px;
+}
+nav li a{
+    color: red;
+}
+nav li .btn{
+    background: #6C02FC;
+    border:0px;
+
+}
+.nav-link {
+    color: #ffffff!important
+}
+.nav-link:hover {
+    color: #929292!important
+}
+nav li .btn:hover{
+    background: #4C0DA0;
+    background-position: right center;
+}
+
+
+/* ***** --- POST-HEADER --- ***** */
+
+#post-head{
+    margin-top:80px;
+}
+/* Textos de post header sin underline del link */
+#linkpostgrd a:hover{
+    text-decoration: none;
+}
+
+#titleposth{
+    color: #ffffff;
+}
+#titleposth:hover{
+    color: grey;
+}
+
+#postgrd1{
+    height: 430px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 50%),url(../img/rm2.jpg);
+    background-size:cover;
+    background-position:center;
+    -webkit-background-size:cover;
+}
+#postgrd2{
+    height: 210px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 20%, rgba(255,255,255,0) 60%),url(../img/kny.jpg);
+    background-size:cover;
+    background-position:center;
+    -webkit-background-size:cover;
+
+
+}
+#postgrd3{
+    height: 210px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 20%, rgba(255,255,255,0) 60%),url(../img/ds.jpg);
+    background-size:cover;
+    background-position:center;
+    -webkit-background-size:cover;
+
+}
+#content h2{
+    color:#ffffff;
+    text-decoration: none;
+}
+#content h5{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+/* ***** ----- POSTS MAIN ----- ***** */
+
+#postimgg{
+    background:url(../img/kny.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#postbody{
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+#btn-grad{
+    background: #6C02FC;
+    border:0px;
+}
+#btn-grad:hover{
+    background: #4C0DA0;
+    background-position: right center;
+}
+
+#btn-grad2{
+    background: white;
+    border-color: #6C02FC;
+    color: #6C02FC;
+
+}
+#btn-grad2:hover{
+    background: #4C0DA0;
+    border-color: #4C0DA0;
+    background-position: right center;
+    color: white;
+}
+
+/* SIDEBAR */
+#sidebar li{
+    list-style-type: none;
+}
+#sidebar ul{
+    padding-left:0px;
+}
+
+#sidebar .card-body{
+    background: #EBF1F7;
+}
+/* POSTS */
+#postimagen{
+    background-size:cover;
+    background-position:center;
+    -webkit-background-size:cover;
+}
+#headlink{
+    color:#6C02FC;
+    font-size: 18px;
+}
+
+#linksidebar{
+    color:#6C02FC;
+
+
+}
+
+#notalink{
+
+    color:black;
+    text-decoration:none;
+}
+#footer{
+    padding-top: 40px;
+    padding-bottom: 23px;
+
+    background:#6C02FC;
+    color: white;
+}
+
+#footer a{
+    color: white;
+}
+
+#ulreview{
+    background:#370280;
+    color:white
+}
+#ulreview a {
+    color:white;
+    text-decoration: none;
+
+}
+#ulreview:hover{
+    background:#240154;
+    color:white;
+    cursor: pointer;
+}
+#rvcard{
+    background:#370280;
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px
+}
+
+
+
+
